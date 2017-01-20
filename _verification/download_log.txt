@@ -1,0 +1,246 @@
+Last login: Thu Jan 19 20:34:38 on ttys000
+
+$ curl -I https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-1210.zip
+HTTP/1.1 200 OK
+ETag: "70b0c576f0f8ce84eda8c0ddde674e7f:1293664676"
+Last-Modified: Wed, 29 Dec 2010 23:17:56 GMT
+Accept-Ranges: bytes
+Content-Length: 21076763
+Content-Type: application/zip
+Date: Fri, 20 Jan 2017 03:02:52 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-0711b.zip
+HTTP/1.1 200 OK
+ETag: "02191f0f355d8709a79f984f9c709df1:1311970138"
+Last-Modified: Fri, 29 Jul 2011 20:08:58 GMT
+Accept-Ranges: bytes
+Content-Length: 7413707
+Content-Type: application/zip
+Date: Fri, 20 Jan 2017 03:03:03 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-through-December-2011.zip
+HTTP/1.1 200 OK
+ETag: "558fbc06eb619680a209f1c68cd7be53:1333122388"
+Last-Modified: Fri, 30 Mar 2012 15:46:28 GMT
+Accept-Ranges: bytes
+Content-Length: 15188703
+Content-Type: application/zip
+Date: Fri, 20 Jan 2017 03:03:25 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2012.csv_.zip
+HTTP/1.1 200 OK
+ETag: "8634b4556bddfdcf8eb7029fd3dfaa7e:1364572578"
+Last-Modified: Fri, 29 Mar 2013 15:20:55 GMT
+Accept-Ranges: bytes
+Content-Length: 28399903
+Content-Type: application/zip
+Cache-Control: max-age=1209600
+Expires: Fri, 03 Feb 2017 03:03:32 GMT
+Date: Fri, 20 Jan 2017 03:03:32 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2013.csv__0.zip
+HTTP/1.1 200 OK
+ETag: "443e0f8150610b434b7ea7502d15514c:1398463545"
+Last-Modified: Fri, 25 Apr 2014 19:57:12 GMT
+Accept-Ranges: bytes
+Content-Length: 16836943
+Content-Type: application/zip
+Cache-Control: max-age=1209600
+Expires: Fri, 03 Feb 2017 03:03:40 GMT
+Date: Fri, 20 Jan 2017 03:03:40 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2014_12.csv_.zip
+HTTP/1.1 200 OK
+ETag: "88e41c16c865b629ce70a253c8fe9296:1427493432"
+Last-Modified: Fri, 27 Mar 2015 20:37:42 GMT
+Accept-Ranges: bytes
+Content-Length: 16401552
+Content-Type: application/zip
+Cache-Control: max-age=1209600
+Expires: Fri, 03 Feb 2017 03:03:46 GMT
+Date: Fri, 20 Jan 2017 03:03:46 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2015_12.csv_.zip
+HTTP/1.1 200 OK
+ETag: "2221edc53a3e80c516fde6d98718a9d7:1451923064"
+Last-Modified: Mon, 04 Jan 2016 15:39:49 GMT
+Accept-Ranges: bytes
+Content-Length: 15073253
+Content-Type: application/zip
+Cache-Control: max-age=1209600
+Expires: Fri, 03 Feb 2017 03:03:52 GMT
+Date: Fri, 20 Jan 2017 03:03:52 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2016_12.csv_.zip
+HTTP/1.1 200 OK
+ETag: "e48aa2f8f43048b76cdb7308f3e516b3:1483124254"
+Last-Modified: Fri, 30 Dec 2016 15:54:24 GMT
+Accept-Ranges: bytes
+Content-Length: 18078608
+Content-Type: application/zip
+Cache-Control: max-age=1209600
+Expires: Fri, 03 Feb 2017 03:03:59 GMT
+Date: Fri, 20 Jan 2017 03:03:59 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ curl -I https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Key-1209.txt
+HTTP/1.1 200 OK
+ETag: "fff5185f6e7b3bd6480a0ffa11bc56dd:1262198378"
+Last-Modified: Wed, 30 Dec 2009 18:39:38 GMT
+Accept-Ranges: bytes
+Content-Length: 1360
+Content-Type: text/plain
+Date: Fri, 20 Jan 2017 03:04:05 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+
+$ wget https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-1210.zip
+--2017-01-19 21:05:30--  https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-1210.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21076763 (20M) [application/zip]
+Saving to: ‘WhiteHouse-WAVES-Released-1210.zip’
+
+WhiteHouse-WAVES-Released-1210.zip    100%[========================================================================>]  20.10M  5.53MB/s    in 4.0s
+
+2017-01-19 21:05:36 (5.00 MB/s) - ‘WhiteHouse-WAVES-Released-1210.zip’ saved [21076763/21076763]
+
+$ wget https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-0711b.zip
+--2017-01-19 21:07:40--  https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-0711b.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7413707 (7.1M) [application/zip]
+Saving to: ‘WhiteHouse-WAVES-Released-0711b.zip’
+
+WhiteHouse-WAVES-Released-0711b.zip   100%[========================================================================>]   7.07M  3.59MB/s    in 2.0s
+
+2017-01-19 21:07:42 (3.59 MB/s) - ‘WhiteHouse-WAVES-Released-0711b.zip’ saved [7413707/7413707]
+
+$ wget https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-through-December-2011.zip
+--2017-01-19 21:07:46--  https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Released-through-December-2011.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15188703 (14M) [application/zip]
+Saving to: ‘WhiteHouse-WAVES-Released-through-December-2011.zip’
+
+WhiteHouse-WAVES-Released-through-Dec 100%[========================================================================>]  14.48M  5.27MB/s    in 2.7s
+
+2017-01-19 21:07:49 (5.27 MB/s) - ‘WhiteHouse-WAVES-Released-through-December-2011.zip’ saved [15188703/15188703]
+
+$ wget https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2012.csv_.zip
+--2017-01-19 21:07:52--  https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2012.csv_.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 28399903 (27M) [application/zip]
+Saving to: ‘whitehouse-waves-2012.csv_.zip’
+
+whitehouse-waves-2012.csv_.zip        100%[========================================================================>]  27.08M  6.58MB/s    in 4.8s
+
+2017-01-19 21:07:58 (5.63 MB/s) - ‘whitehouse-waves-2012.csv_.zip’ saved [28399903/28399903]
+
+$ wget https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2013.csv__0.zip
+--2017-01-19 21:07:59--  https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse-waves-2013.csv__0.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16836943 (16M) [application/zip]
+Saving to: ‘whitehouse-waves-2013.csv__0.zip’
+
+whitehouse-waves-2013.csv__0.zip      100%[========================================================================>]  16.06M  4.83MB/s    in 3.3s
+
+2017-01-19 21:08:03 (4.83 MB/s) - ‘whitehouse-waves-2013.csv__0.zip’ saved [16836943/16836943]
+
+$ wget https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2014_12.csv_.zip
+--2017-01-19 21:08:04--  https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2014_12.csv_.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16401552 (16M) [application/zip]
+Saving to: ‘whitehouse_waves-2014_12.csv_.zip’
+
+whitehouse_waves-2014_12.csv_.zip     100%[========================================================================>]  15.64M  6.62MB/s    in 2.4s
+
+2017-01-19 21:08:07 (6.62 MB/s) - ‘whitehouse_waves-2014_12.csv_.zip’ saved [16401552/16401552]
+
+$ wget https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2015_12.csv_.zip
+--2017-01-19 21:08:09--  https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2015_12.csv_.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15073253 (14M) [application/zip]
+Saving to: ‘whitehouse_waves-2015_12.csv_.zip’
+
+whitehouse_waves-2015_12.csv_.zip     100%[========================================================================>]  14.37M  8.20MB/s    in 1.8s
+
+2017-01-19 21:08:11 (8.20 MB/s) - ‘whitehouse_waves-2015_12.csv_.zip’ saved [15073253/15073253]
+
+$ wget https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2016_12.csv_.zip
+--2017-01-19 21:08:16--  https://www.whitehouse.gov/sites/default/files/disclosures/whitehouse_waves-2016_12.csv_.zip
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18078608 (17M) [application/zip]
+Saving to: ‘whitehouse_waves-2016_12.csv_.zip’
+
+whitehouse_waves-2016_12.csv_.zip     100%[========================================================================>]  17.24M  5.19MB/s    in 3.3s
+
+2017-01-19 21:08:20 (5.19 MB/s) - ‘whitehouse_waves-2016_12.csv_.zip’ saved [18078608/18078608]
+
+$ wget https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Key-1209.txt
+--2017-01-19 21:08:22--  https://www.whitehouse.gov/files/disclosures/visitors/WhiteHouse-WAVES-Key-1209.txt
+Resolving www.whitehouse.gov... 104.110.163.145, 2001:559:19:9094::fc4, 2001:559:19:9085::fc4
+Connecting to www.whitehouse.gov|104.110.163.145|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1360 (1.3K) [text/plain]
+Saving to: ‘WhiteHouse-WAVES-Key-1209.txt’
+
+WhiteHouse-WAVES-Key-1209.txt         100%[========================================================================>]   1.33K  --.-KB/s    in 0s
+
+2017-01-19 21:08:22 (40.5 MB/s) - ‘WhiteHouse-WAVES-Key-1209.txt’ saved [1360/1360]
+
+$ shasum -a 512 *
+b020d2f65aca06eb4832871de9f5eddaa7071353c5acbc8b45e5961b27cd4a0612036121847acb43e4954ecb73f20eb8ef46f94799955d99c9822b050e7d0912  WhiteHouse-WAVES-2012.csv
+4b642aeb492c0592d4f2737fd3928eee175dd1e5b830b89f2565d84264795d204b14f7aca52b1d0b12be3e45f0793aada691121be9f0841256fdf89809f4aaf6  WhiteHouse-WAVES-Key-1209.txt
+16e1d5d3a3c4603160cb4196cd4c79f252f8078ef24894ee49548de1e68b03053887a42a6d29c65ed5695badaa0b6b0630aab80646a5a4403df2b86d4ae05fe5  WhiteHouse-WAVES-Released-0611.csv
+ca992d65aa253303730ab5b3398cc0a184929ca666691f29e14500e8d2d87ffcba6c64de579ff1cc8ec957b91d7afbb2ef0dc892dc677ba66f446785e3eeaa02  WhiteHouse-WAVES-Released-0711b.zip
+1be5f67bddd06b99cac29f83b56bc1a23e65db21b89704978761992af8fe03dcd36c9b96d4880764eb57f8d70f500a7449a8697530179dd9ee9c57ed231095d1  WhiteHouse-WAVES-Released-1210.csv
+9110e9bf4056d413d4230e8cf46dc2c5be625faa35760034da7ffa9ff697d020e3f095cf84ea49b35e01250f7068b56c004b4cf175378fc8112cb4f44fe8e742  WhiteHouse-WAVES-Released-1210.zip
+8a522a4862ae2f81e6a273633cfe3b4d64380c8a4b62bc34dc57f0c29a7f60eb6db9f8bddbb3afd03b3c39969a1706d4ba3984f57a17d9c1232709ae5817902e  WhiteHouse-WAVES-Released-through-December-2011.csv
+6d32ca4b6a92f376266c97b1f0308e88ba72a3e4141070b82c937a9edc7a8eaf9fd9b06fabbb85c54f7edf6f5a5255a1c18281f66082a83faf93f41951476a90  WhiteHouse-WAVES-Released-through-December-2011.zip
+8e15b964b102cd0d28ab17c5b138616e6b658f87085a0a3a5a37f68376d988d128f134d5f13f95bd59b582a09c446174ea47439965080d5662088599be56ec3a  whitehouse-waves-2012.csv_.zip
+7c5bc4f40f5676e3bd1dd9abcf912a4a75dfa28b03aeebbf2f453a608c489cb291cdf06db9defc9a0504c162ac2b2cd0bf47c57c76a9c5931c769d0f2abf52cf  whitehouse-waves-2013.csv
+7f93da9d86e336e238a2e7870723a3a9c462bedfba438dec3b40fdfcbe24dfec73110bef71bc920fb7a1c53bbe5acf8e46c228d31aaeb675941aaab592766723  whitehouse-waves-2013.csv__0.zip
+1d8beaf0ea3681572cd5c7d9e65c62a744c3dacf99973e91d404af5555a00cff7fadd1b04f1589190fe15524c3c398b62b52bde58b3064f5cb3645a7c19f29a5  whitehouse_waves-2014_12.csv.csv
+15ecbe027b59b413b495992e95826f259549d4c5b909f1ad11bf79d777a9fce470e590e04d9acadb45c33f1797fe70ffe8c2e808d48e9731f444c0fa570f24d2  whitehouse_waves-2014_12.csv_.zip
+0b3bae0bc21e1e49403b21a0a6c93858ed678d04c9ded14f949131f0eb7bf9ba53517209a5165c8a703f777e75d9f53bec70dca24da55cfca0d28b56c2a4da41  whitehouse_waves-2015_12.csv
+a70693ce519ed7a39b3df1b59bb40bf7e3dd21d40c69cf5cfc3b4215b44e42523b4db106e37bc64df0095a7be5b41315f9d7c07f22ba051f7c4b52acc7ddd7ca  whitehouse_waves-2015_12.csv_.zip
+91074c9acdabe2902b65a8801c0c487766964223a3c7583242c8bc9bbf76930f0d91abe407bae819cd7bda035ebf234667289d610fd632cfce2e6c5e946f8f49  whitehouse_waves-2016_12.csv
+0742ee3cb49f84286a8f17f750f8a0e81a1e95fa45c24e4f1ae6c97eaa29ff6fd7514e28ff36ae769bacaffba136286c2d0f3188f91286fc2e72a52772e7699a  whitehouse_waves-2016_12.csv_.zip
